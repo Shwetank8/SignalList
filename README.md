@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SignalList 
 
-## Getting Started
+A modern, AI-driven financial platform built with **Next.js, Shadcn, Better Auth, and Inngest**. Track real-time stock prices, set personalized alerts, explore company insights, and manage watchlists.  
 
-First, run the development server:
+The **admin dashboard** enables managing stocks, publishing news, and monitoring user activity, while **event-driven workflows** power automated alerts, AI-driven daily digests, earnings notifications, and sentiment analysis.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Perfect for developers and traders who want a **dynamic, real-time stock market platform**.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Features  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 📊 **Stock Dashboard** – Real-time stock prices with interactive line & candlestick charts, historical data, and stock filtering by industry, performance, or market cap.  
+- 🔍 **Powerful Search** – Quickly find stocks with an intelligent search system.  
+- ⭐ **Watchlist & Alerts** – Create personalized watchlists, set price/volume alerts, and receive instant email notifications.  
+- 🏢 **Company Insights** – Access detailed financials (PE ratio, EPS, revenue), analyst ratings, filings, sentiment scores, and news.  
+- ⚡ **Real-Time Workflows** – Inngest-powered automation for price updates, reporting, and AI-driven insights.  
+- 🤖 **AI-Powered Alerts & Summaries** – Personalized digests, earnings reports, and market summaries.  
+- 🔔 **Customizable Notifications** – Fine-tuned alerts and preferences for each user.  
+- 📈 **Analytics & Insights** – Admin tools for user activity, engagement metrics, and stock trends.  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **[Next.js](https://nextjs.org/):** Full-stack React framework with SSR & API routes.  
+- **[Shadcn](https://ui.shadcn.com/):** Accessible, customizable React components.  
+- **[TailwindCSS](https://tailwindcss.com/):** Utility-first CSS for responsive design.  
+- **[TypeScript](https://www.typescriptlang.org/):** Strongly-typed JavaScript for reliability.  
+- **[Better Auth](https://better-auth.com/):** Authentication & authorization with email, social login, and MFA.  
+- **[Inngest](https://www.inngest.com/):** Event-driven workflows for real-time automation.  
+- **[Finnhub](https://finnhub.io/):** Real-time stock, forex, crypto, and financial data API.  
+- **[MongoDB](https://www.mongodb.com/):** NoSQL database for flexible, scalable storage.  
+- **[Nodemailer](https://nodemailer.com/):** Email notifications and transactional emails.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
